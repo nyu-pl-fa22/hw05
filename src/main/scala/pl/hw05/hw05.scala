@@ -12,9 +12,6 @@ object hw05 extends App:
     if n == k || k == 0 then 1 
     else binomNaive(n - 1, k - 1) + binomNaive(n - 1, k)
   
-  def binomHelper(n:Int, m:Int, d:Int, ans:Int): Int =
-    ???
-  
   // Your implementation of Part 1
   def binom(n: Int, k: Int): Int =
     require (0 <= k && k <= n)
@@ -28,10 +25,6 @@ object hw05 extends App:
       case 2 => 1
       case _ => tribNaive(n - 1) + tribNaive(n - 2) + tribNaive(n - 3)
     end match
-  
-  def tribHelper(n: Int, t2: Int, t3: Int): Int =
-    ???
-    
   
   // Your implementation of Part 2
   def trib(n: Int): Int =
