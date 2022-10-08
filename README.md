@@ -65,7 +65,7 @@ to help you test your code for Problem 2.
 The file
 
 ```
-main/main.ml
+bin/main.ml
 ```
 
 is the entry point of the executable program for your code. You can also add testing code there.
