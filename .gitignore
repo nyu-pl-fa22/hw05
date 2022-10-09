@@ -19,7 +19,6 @@ target
 atlassian-ide-plugin.xml
 *.log.gz
 .git
-/bin/
 a.out
 foo.s
 .bsp/
